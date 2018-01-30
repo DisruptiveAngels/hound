@@ -1,4 +1,4 @@
-class AddWhitelistedToOwners < ActiveRecord::Migration[5.0]
+class AddWhitelistedToOwners < ActiveRecord::Migration[4.2][5.0]
   def up
     add_column :owners, :whitelisted, :boolean, default: false, null: false
 
